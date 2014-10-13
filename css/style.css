@@ -1,180 +1,117 @@
 * {
-	margin:0; padding:0;
-}
-/*The Body uses a red background, a blue box shadow, and a red line boarder*/
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
 body{
     line-height:2;
     text-indent:0.625em;
     margin-left:auto;
     margin-right:auto;
-    border: 0.313em double rgba(255,0,0,1);
-    border-radius: 0.938em;
-    box-shadow:0 0 3.125em 1.250em hsla(253, 74%, 37%, 1);
     width:95%;
-	background-image:url('../images/subliminal.gif');
+	background:rgb(204,204,204);
 	
 
 
 }
-/*The styles for the links in various states*/
-a:link {
-    text-decoration:none;
-    color: rgb(0,0,0);
+
+img{
+	float:left;
 }
-a:visited {
-    text-decoration:none;
-    color: #E80C93;
-}
-a:hover {
-    text-decoration:underline;
-    color: #E80C93;
-}
-a:active {
-    text-decoration:underline;
-}
-/*h1 utilizes the web font, 'Lobster'*/
 h1{
-    background-color:rgb(255,255,255);
-    color:rgba(175, 13, 13, 1);
-    font:italic bold 2.5em 'Lobster';
+    background-color:rgb(51,51,51);
+    color:rgb(255,255,255);
     text-transform:uppercase;
-    text-shadow:0.313em 0.313em 0.625em rgba(0,0,153,1);
-    border-top-left-radius:0.938em;
-    border-top-right-radius:0.938em;
+    text-shadow:0.313em 0.313em 0.625em rgb(0,102,255);
+	text-align:center;
+	border-radius: .5em;
+	width:75%;
+	float:right;
 }
 h2{
     color:rgba(175, 13, 13, 1);
     font:italic 1.75em "ceviche one";
+	text-align:center;
     letter-spacing:0.063em;
     text-shadow:0.313em 0.313em 0.625em rgb(0,0,153);
-    height:64px;
+    height:2.400em;
     background:rgba(255,255,255,.95);
+	width:50%;
+	clear:right;
+	float:left;
+	margin-left:3%;
 }
-h3{
 
-    color:rgba(175, 13, 13, 1);
-    font:italic 1.5em "ceviche one";
-    letter-spacing:0.063em;
-    text-shadow:0.313em 0.313em 0.625em rgb(0,0,153);
-    height:64px;
-    background:rgba(255,255,255,.95);
+h3{
+	margin-left:45%;
+}
+
+ul{
+    color:rgb(0,0,100);
+    padding:0;
+	text-align:center;
+	margin-right:auto;
+	margin-left:30%;
+	width:90%;
 	clear:both;
 }
-h4{
-    height:64px;
-    background:rgba(255,255,255,.95);
-    color:hsla(0, 0%, 100%, 1);
-    font:italic bold 1.25em;
-    letter-spacing:0.063em;
-    text-shadow: 0.313em 0.313em 0.625em rgb(0,0,153);
-    display:block;
+.inactive{
+	background:rgb(51,51,51);
+}
+input{
+	height:3.5em;
+	margin:.2em;
+	width:10%;
+
+}
+select{
+	height:3.5em;
+	margin:.2em;
+	width:30%;
+	margin-left:2%;
+	float:left;
+}
+#keyword{
+	width:60%;
+	margin-left:1%;
 }
 p{
-
-    background-color:rgb(255,255,255);
-    color:rgba(0,0,102,1);
-    font-size:1.0em;
-    font-family:"georgia", serif;
-
-}
-ul{
-
-    background: #efc5ca;
-	background: -moz-linear-gradient(top,  #efc5ca 0%, #d24b5a 19%, #ba2737 76%, #f18e99 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efc5ca), color-stop(19%,#d24b5a), color-stop(76%,#ba2737), color-stop(100%,#f18e99));
-	background: -webkit-linear-gradient(top,  #efc5ca 0%,#d24b5a 19%,#ba2737 76%,#f18e99 100%);
-	background: -o-linear-gradient(top,  #efc5ca 0%,#d24b5a 19%,#ba2737 76%,#f18e99 100%);
-	background: -ms-linear-gradient(top,  #efc5ca 0%,#d24b5a 19%,#ba2737 76%,#f18e99 100%);
-	background: linear-gradient(to bottom,  #efc5ca 0%,#d24b5a 19%,#ba2737 76%,#f18e99 100%);
-	filter:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=0 );
-    color:rgb(0,0,100);
-    width:99.3%;
-    padding:0;
-    border:0.313em dotted rgba(175, 13, 13, 1);
-    margin:0;
-    list-style:inside circle;
-
-}
-ol{
-
-    background-color:rgba(255,255,255,.75);
-	background-image:url('../images/baseball.png');
-	background-repeat:no-repeat;
-	background-position:right;
-    color:rgb(0,0,100);
-	text-indent:0.8em;
-    width:99.3%;
-    padding:0.2em;
-    border:0.313em dotted rgba(175, 13, 13, 1);
-    margin:0.31em;
-	clear:both;
-
-}
-/*The block quote and figure are both centered, in order to draw attention to them.*/
-blockquote{
-	margin-left:auto;
-	margin-right:auto;
-	width:100%;
-	color:rgba(175, 13, 13, 1);
-	text-align:center;
-	background-color:rgba(255,255,255,1);
-	padding-bottom:.09em;
-	padding-top:.09em;
-}
-figure{
-	margin-left:auto;
-	margin-right:auto;
-	width:45%;
-	color:rgba(175, 13, 13, 1);
-	text-align:center;
-	background-color:rgba(255,255,255,1);
 	float:right;
-	padding-bottom:8px;
-		
+	width:45%;
+	clear:right;
 }
-div{
-	float:left;
-	width:55%;
-	height:inherit;
-}
-table{
-	background-color:rgba(175, 13, 13, 1);
-    color:rgba(255,255,255,1);
-    font-size:1.0em;
-    font-family:"georgia", serif;
-	width:50%;
-	padding:10px;
-	border:0.313em dotted rgba(255, 255, 255, 1);
-	text-align:center;
-	text-transform:capitalize;
-	border-spacing:2px;
-	margin-left:auto;
-	margin-right:auto;
-}
-tr:hover{
-	text-decoration:underline;
-    color: #CCC;
-}
-form{
-		background-color:rgba(175, 13, 13, 1);
-    color:rgba(255,255,255,1);
-    font-size:1.0em;
-    font-family:"georgia", serif;
-	width:25%;
-	padding:10px;
-	border:0.313em solid rgba(255, 255, 255, 1);
-	text-align:left;
-	text-transform:capitalize;
-	border-spacing:2px;
+#bigad {
 	float:left;
 }
-input:hover{
-	text-decoration:underline;
-    color: #00F;
+#result{
+	margin-left:1%;
+	border:double;
 }
-input:focus{
-	text-decoration:blink;
-    color: #000;
+#masks{
+	margin:2%;
+}
+#description{
+	margin-right:8%;
+}
+#bookmark, #buytickets{
+	height:2em;
+	width:15%;
+	margin-left:3%;
+}
+#unmark, #moretickets{
+	height:2em;
+	width:20%;
+	margin-left:3%;	
+}
+#username, #password{
+	width:30%;
+	margin-left:1%;
+}
+#login{
+	width:10%;
+	margin-left:10%;
 }
 
 
