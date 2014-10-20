@@ -29,6 +29,7 @@ h1{
 	border-radius: .5em;
 	width:75%;
 	float:right;
+	font-family: 'Ubuntu', sans-serif;
 }
 h2{
     color:rgba(175, 13, 13, 1);
@@ -81,6 +82,7 @@ p{
 	float:right;
 	width:45%;
 	clear:right;
+	font-family: "Britanic", Times, serif;
 }
 #bigad {
 	float:left;
