@@ -1,119 +1,125 @@
+
 * {
-	outline: 0;
-	padding: 0;
-	margin: 0;
-	border: 0;
-	}
-
-body{
-    line-height:2;
-    text-indent:0.625em;
-    margin-left:auto;
-    margin-right:auto;
-    width:95%;
-	background:rgb(204,204,204);
-	
-
-
+outline:0;
+border:0;
+margin:0;
+padding:0;
 }
 
-img{
-	float:left;
-}
-h1{
-    background-color:rgb(51,51,51);
-    color:rgb(255,255,255);
-    text-transform:uppercase;
-    text-shadow:0.313em 0.313em 0.625em rgb(0,102,255);
-	text-align:center;
-	border-radius: .5em;
-	width:75%;
-	float:right;
-	font-family: 'Ubuntu', sans-serif;
-}
-h2{
-    color:rgba(175, 13, 13, 1);
-    font:italic 1.75em "ceviche one";
-	text-align:center;
-    letter-spacing:0.063em;
-    text-shadow:0.313em 0.313em 0.625em rgb(0,0,153);
-    height:2.400em;
-    background:rgba(255,255,255,.95);
-	width:50%;
-	clear:right;
-	float:left;
-	margin-left:3%;
+body {
+line-height:2;
+text-indent:.625em;
+margin-left:auto;
+margin-right:auto;
+width:95%;
+background:#ccc;
 }
 
-h3{
-	margin-left:45%;
+h1 {
+background-color:#333;
+color:#fff;
+text-transform:uppercase;
+text-shadow:.313em .313em .625em #06f;
+text-align:center;
+border-radius:.5em;
+width:75%;
+float:right;
+font-family:Ubuntu, sans-serif;
 }
 
-ul{
-    color:rgb(0,0,100);
-    padding:0;
-	text-align:center;
-	margin-right:auto;
-	margin-left:30%;
-	width:90%;
-	clear:both;
-}
-.inactive{
-	background:rgb(51,51,51);
-}
-input{
-	height:3.5em;
-	margin:.2em;
-	width:10%;
-
-}
-select{
-	height:3.5em;
-	margin:.2em;
-	width:30%;
-	margin-left:2%;
-	float:left;
-}
-#keyword{
-	width:60%;
-	margin-left:1%;
-}
-p{
-	float:right;
-	width:45%;
-	clear:right;
-	font-family: "Britanic", Times, serif;
-}
-#bigad {
-	float:left;
-}
-#result{
-	margin-left:1%;
-	border:double;
-}
-#masks{
-	margin:2%;
-}
-#description{
-	margin-right:8%;
-}
-#bookmark, #buytickets{
-	height:2em;
-	width:15%;
-	margin-left:3%;
-}
-#unmark, #moretickets{
-	height:2em;
-	width:20%;
-	margin-left:3%;	
-}
-#username, #password{
-	width:30%;
-	margin-left:1%;
-}
-#login{
-	width:10%;
-	margin-left:10%;
+h2 {
+color:rgba(175,13,13,1);
+font:italic 1.75em "ceviche one";
+text-align:center;
+letter-spacing:.063em;
+text-shadow:.313em .313em .625em #009;
+height:2.4em;
+background:rgba(255,255,255,.95);
+width:50%;
+clear:right;
+float:left;
+margin-left:3%;
 }
 
+h3 {
+margin-left:45%;
+}
+
+ul {
+color:#000064;
+text-align:center;
+margin-right:auto;
+margin-left:30%;
+width:90%;
+clear:both;
+padding:0;
+}
+
+.inactive {
+background:#333;
+}
+
+input {
+height:3.5em;
+width:10%;
+margin:.2em;
+}
+
+select {
+height:3.5em;
+width:30%;
+float:left;
+margin:.2em .2em .2em 2%;
+}
+
+#keyword {
+width:60%;
+margin-left:1%;
+}
+
+p {
+float:right;
+width:45%;
+clear:right;
+font-family:Britanic, Times, serif;
+}
+
+#result {
+margin-left:1%;
+border:double;
+}
+
+#masks {
+margin:2%;
+}
+
+#description {
+margin-right:8%;
+}
+
+#bookmark,#buytickets {
+height:2em;
+width:15%;
+margin-left:3%;
+}
+
+#unmark,#moretickets {
+height:2em;
+width:20%;
+margin-left:3%;
+}
+
+#username,#password {
+width:30%;
+margin-left:1%;
+}
+
+#login {
+width:10%;
+margin-left:10%;
+}
+
+img,#bigad {
+float:left;
+}
 
